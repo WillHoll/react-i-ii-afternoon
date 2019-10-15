@@ -1,22 +1,89 @@
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.2px;
 }
 
-.App-logo {
-  height: 40vmin;
+h2 {
+  margin-left: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  height: 10vh;
+  background-color: #57A3D5;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 10vh 20vh 10vh;
+  background-color: #222222;
+}
+.content {
+  height: 100%;
+  width: 100%;
+  background-color: #EBEBEB;
+}
+.inner-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px;
+}
+.main-content{
+  padding: 0 5% 7% 5%;
+}
+
+ul {
+  font-size: 1.1rem;
+  padding-left: 0;
+}
+.bold {
+  font-weight: 700;
+}
+li {
+  display: flex;
+  margin: 3px 0;
+}
+ol {
+  list-style-type: decimal;
+}
+h1 {
+  margin: 0;
+}
+.annoying-div-that-must-exist > h1{
+  text-decoration: underline #57A3D5;
+}
+.inner-footer {
+  background-color: #222222;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 5vh;
+  align-items: center;
+}
+.inner-footer > button {
+  color: white;
+  background-color: #222222;
+  border: 0px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.button-container {
+  height: 80%;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.button-container > button {
+  color: white;
+  background-color: #57A3D5;
+  font-weight: 700;
+  border: 0px;
+  border-radius: 13px;
 }
